@@ -1,0 +1,34 @@
+.f-holder{
+  display:flex !important ;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn i{
+  font-size: 3vh;
+}
+
+.todo-input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 0 1em;
+  outline: none;
+  font-size: 3.5vh;
+  color: white;
+  transition: 0.4s;
+}
+.todo-input:focus{
+  font-size: 4vh;
+}
+
+.todo{
+  justify-content: space-between;
+}
+.todo .form-checkbox{
+ padding: 3vh !important; 
+}
+
+.done{
+  text-decoration: line-through !important;
+}
